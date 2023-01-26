@@ -104,3 +104,9 @@
     return Collections.unmodifiableCollection(brani).iterator();
   }
 }
+
+//public class Pavimentazione implements Rivestimento, Iterable<Pavimentazione.Componente> {
+ @Override
+  public Iterator<Pavimentazione.Componente> iterator() {
+    return componenti.iterator();
+  }
