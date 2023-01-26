@@ -16,6 +16,8 @@
         return Objects.hash(this.nome,this.materiale);
     }
 
+
+  //public class Playlist implements Iterable<Album.Brano> 
   /**
    * Restituisce un iteratore che enumera tutti i brani della playlist che provengono dall'album
    * dato.
