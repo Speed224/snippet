@@ -1,4 +1,7 @@
-
+/**
+ * Classe concreta che rappresenta uno Scalo Navale (un aggregato di moli),
+ * il suo stato è costituito da un vettore di moli
+ */
 public class ScaloNavale {
     /**un vettore di moli perchè i moli sono in numero finito dall'inizio */
     private final Molo[] moli;
